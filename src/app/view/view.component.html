@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div
+	*ngIf="title || author || cover"
+	class="content"
+	style="padding-right: 5rem; text-align: right"
+>
+	<h1>
+		{{ author }}
+	</h1>
+	<h2>
+		{{ title }}
+	</h2>
+	<div
+		id="cover"
+		[ngStyle]="{
+			backgroundImage: cover ? 'url(' + cover + ')' : 'url(assets/cover.png)'
+		}"
+	>
+		&nbsp;
+	</div>
+</div>

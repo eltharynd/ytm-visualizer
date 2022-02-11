@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+//@import url("https://fonts.googleapis.com/css?family=Noto+Sans:300,400,500,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800");
+
+* {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Roboto', sans-serif;
+    
+    -webkit-text-stroke-color: black;
+    text-shadow: 3px 3px 5px black;
+
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5rem;
+    -webkit-text-stroke-width: 2px;
+    height: 2.3rem;
+    padding-right: 0.5rem;
+}
+h2 {
+    font-size: 2rem;
+    //line-height: 14px;
+    -webkit-text-stroke-width: 1.7px;
+    margin-right: 0;
+    margin-left: auto;
+
+    height: 4rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 0.5rem;
+}
+
+
+#cover {
+    //background-image: url("/assets/cover.png");
+    background-size: cover;
+    background-position: center;
+    
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    top: 0.5rem;
+    right: 0.5rem;
+
+}
